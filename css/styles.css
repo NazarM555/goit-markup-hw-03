@@ -1,0 +1,252 @@
+:root {
+  --main-title-color: #ffffff;
+  --second-title-color: #212121;
+  --main-text-color: #757575;
+  --second-text-color: #212121;
+  --third-text-color: #ffffff;
+  --header-logo-color: #000000;
+  --footer-contact-color: rgba(255, 255, 255, 0.6);
+  --accent-color: #2196f3;
+  --main-button-color: #ffffff;
+  --second-button-color: #212121;
+  --background-button-color: #f5f4fa;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--second-title-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+/* ---------------------------------------ХЕДЕР----------------------------------- */
+
+.header-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--header-logo-color);
+}
+
+.link .accent {
+  color: var(--accent-color);
+}
+
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.33;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
+}
+
+.current .link {
+  color: var(--accent-color);
+}
+
+.header-contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+.list-item > .header-contact {
+  color: var(--accent-color);
+}
+
+.header .link:hover,
+.header .link:focus {
+  color: var(--accent-color);
+}
+
+/* чомусь не ховерить силки в мейні портфоліо....
+.list .link:hover,
+.list .link:focus {
+  color: var(--accent-color);
+}
+*/
+
+/* якщо лого не треба ховерити то зміню на це >>
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
+*/
+
+/*
+.header-contact:hover,
+.header-contact:focus {
+  color: var(--accent-color);
+}
+*/
+
+/* ---------------------------------------МЕЙН----------------------------------- */
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--main-title-color);
+  background-color: #2f303a;
+}
+
+.hero-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--main-button-color);
+  background-color: var(--accent-color);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  color: var(--accent-color);
+}
+
+.second-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.third-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+.third-section .list {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+.list .name {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--second-title-color);
+}
+
+/* -------------------------------------Портфоліо початок----------------------*/
+
+.btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+}
+
+.first.btn {
+  color: var(--main-button-color);
+  background-color: var(--accent-color);
+}
+
+.second.btn {
+  color: var(--second-button-color);
+  background-color: var(--background-button-color);
+}
+
+.btn:hover,
+.btn:focus {
+  color: var(--accent-color);
+}
+
+.about-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--second-title-color);
+}
+
+.about-after-title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+.about-title:hover,
+.about-title:focus {
+  color: var(--accent-color);
+}
+
+.about-after-title:hover,
+.about-after-title:focus {
+  color: var(--accent-color);
+}
+/* -------------------------------------Портфоліо закінчення----------------------*/
+
+/* ---------------------------------------ФУТЕР----------------------------------- */
+
+.footer {
+  background-color: #2f303a;
+}
+
+.footer-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--third-text-color);
+}
+
+.footer-info .link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--footer-contact-color);
+}
+
+.footer-info .address {
+  color: var(--third-text-color);
+}
+
+/* якщо лого не треба буде ховерити то зміню */
+
+.footer .link:hover,
+.footer .link:focus {
+  color: var(--accent-color);
+}
