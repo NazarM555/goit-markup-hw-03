@@ -29,6 +29,14 @@ body {
   cursor: pointer;
 }
 
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 /* ---------------------------------------ХЕДЕР----------------------------------- */
 
 .header-logo {
@@ -112,17 +120,21 @@ body {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
+
+  border-radius: 4px;
+  padding: 10px 32px;
   line-height: 1.87;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+
   color: var(--main-button-color);
   background-color: var(--accent-color);
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-  color: var(--accent-color);
+  background-color: #188ce8;
 }
 
 .second-title {
