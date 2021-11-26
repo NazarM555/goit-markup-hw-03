@@ -119,13 +119,19 @@ p {
 
 /* ---------------------------------------МЕЙН----------------------------------- */
 
+.hero {
+  text-align: center;
+}
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.5;
-  text-align: center;
+
+  margin-bottom: 30px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
   color: var(--main-title-color);
   background-color: #2f303a;
 }
@@ -140,7 +146,6 @@ p {
   padding: 10px 32px;
   line-height: 1.87;
   align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
 
   color: var(--main-button-color);
