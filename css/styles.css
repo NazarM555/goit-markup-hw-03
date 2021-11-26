@@ -25,8 +25,8 @@ h4,
 h5,
 h6,
 p {
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 
 .list {
@@ -41,6 +41,10 @@ p {
 
 .pointer {
   cursor: pointer;
+}
+
+.section {
+  padding: 94px;
 }
 
 .container {
@@ -117,10 +121,24 @@ p {
 }
 */
 
+.header-list {
+  display: flex;
+}
+
+.header-item:not(:last-child) {
+  margin-right: 50px;
+}
+/*
+.header-item + .header-item {
+  margin-left: 50px;
+}
+*/
 /* ---------------------------------------МЕЙН----------------------------------- */
 
 .hero {
   text-align: center;
+
+  background-color: #2f303a;
 }
 
 .hero-title {
@@ -129,11 +147,11 @@ p {
   line-height: 1.5;
 
   margin-bottom: 30px;
+
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
   color: var(--main-title-color);
-  background-color: #2f303a;
 }
 
 .hero-btn {
@@ -161,8 +179,12 @@ p {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+
+  margin-bottom: 50px;
   text-align: center;
   letter-spacing: 0.03em;
+
+  color: var(--second-title-color);
 }
 
 .third-title {
@@ -171,6 +193,7 @@ p {
   line-height: 1.14;
   text-transform: uppercase;
 
+  margin-bottom: 10px;
   letter-spacing: 0.03em;
 }
 
@@ -184,7 +207,7 @@ p {
   color: var(--main-text-color);
 }
 
-.third-section .list {
+.team-section {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
@@ -192,6 +215,7 @@ p {
   letter-spacing: 0.03em;
 
   color: var(--main-text-color);
+  background-color: #f5f4fa;
 }
 
 .list .name {
