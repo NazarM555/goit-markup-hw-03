@@ -169,7 +169,6 @@ img {
 
 .hero {
   text-align: center;
-
   padding: 200px 0px;
 
   background-color: #2f303a;
@@ -179,11 +178,14 @@ img {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.5;
-
-  margin-bottom: 30px;
-
-  letter-spacing: 0.06em;
   text-transform: uppercase;
+  letter-spacing: 0.06em;
+
+  display: block;
+  margin-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 696px;
 
   color: var(--main-title-color);
 }
@@ -192,13 +194,15 @@ img {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
 
   border: transparent;
   border-radius: 4px;
   padding: 10px 32px;
-  line-height: 1.87;
+  margin-right: auto;
+  margin-left: auto;
   align-items: center;
-  letter-spacing: 0.06em;
 
   color: var(--main-button-color);
   background-color: var(--accent-color);
