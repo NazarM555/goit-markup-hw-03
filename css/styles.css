@@ -213,6 +213,23 @@ img {
   background-color: #188ce8;
 }
 
+.main-list {
+  display: flex;
+}
+
+.item-about {
+  width: 270px;
+  margin-right: 30px;
+}
+
+.main-list .item {
+  margin-right: 30px;
+}
+
+.main-list .item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .second-title {
   font-weight: 700;
   font-size: 36px;
