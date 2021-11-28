@@ -29,6 +29,12 @@ p {
   margin: 0;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .list {
   padding: 0;
   margin: 0;
@@ -57,12 +63,39 @@ p {
 
 /* ---------------------------------------ХЕДЕР----------------------------------- */
 
+.main-header {
+  display: flex;
+  align-items: center;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-list {
+  display: flex;
+}
+
+.header-item:not(:last-child) {
+  margin-right: 50px;
+}
+/*
+.header-item + .header-item {
+  margin-left: 50px;
+}
+*/
+
 .header-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+
+  display: inline-block;
+  margin-right: 93px;
   letter-spacing: 0.03em;
+
   color: var(--header-logo-color);
 }
 
@@ -74,7 +107,12 @@ p {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.33;
+
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   letter-spacing: 0.02em;
+
   color: var(--second-text-color);
 }
 
@@ -82,11 +120,17 @@ p {
   color: var(--accent-color);
 }
 
+.header-contacts {
+  margin-left: auto;
+}
+
 .header-contact {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+
   letter-spacing: 0.02em;
+
   color: var(--main-text-color);
 }
 
@@ -121,18 +165,6 @@ p {
 }
 */
 
-.header-list {
-  display: flex;
-}
-
-.header-item:not(:last-child) {
-  margin-right: 50px;
-}
-/*
-.header-item + .header-item {
-  margin-left: 50px;
-}
-*/
 /* ---------------------------------------МЕЙН----------------------------------- */
 
 .hero {
