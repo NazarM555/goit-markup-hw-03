@@ -44,7 +44,7 @@ p {
 }
 
 .section {
-  padding: 94px;
+  padding: 94px 0px;
 }
 
 .container {
@@ -137,6 +137,8 @@ p {
 
 .hero {
   text-align: center;
+
+  padding: 200px 0px;
 
   background-color: #2f303a;
 }
@@ -285,6 +287,8 @@ p {
 /* ---------------------------------------ФУТЕР----------------------------------- */
 
 .footer {
+  padding: 60px 0px;
+
   background-color: #2f303a;
 }
 
@@ -294,7 +298,11 @@ p {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+
+  display: inline-block;
+  margin-bottom: 20px;
   letter-spacing: 0.03em;
+
   color: var(--third-text-color);
 }
 
@@ -303,8 +311,14 @@ p {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+
   letter-spacing: 0.03em;
+
   color: var(--footer-contact-color);
+}
+
+.footer-item:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .footer-info .address {
